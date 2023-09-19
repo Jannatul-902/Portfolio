@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/427d78f432.js" crossorigin="anonymous"></script>
+    <script src="scrpt.js" defer></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <!-- navbar -->
+      <nav class="container navbar">
+        <h3>Portfo<span>lio</span></h3>
+        <ul id="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/#about-me">About Me</a></li>
+          <li><a href="/#education">Education</a></li>
+          <li><a href="/#contact-me">Contact Me</a></li>
+        </ul>
+        <button class="show" id="menu-open"><i class="fa-solid fa-bars fa-xl"></i></button>
+        <button class="hidden" id="menu-close">
+          <i class="fa-solid fa-xmark fa-xl"></i>
+        </button>
+        <button class="button">Subscribe</button>
+      </nav>
+      <!-- hero section -->
+      <section class="container hero">
+        <div class="hero-text">
+          <p>Hello, My name is</p>
+          <h1>Jannatul <span>Ferdous</span></h1>
+          <div class="hero-text--inputBox">
+            <input type="text" placeholder="Your Email" />
+            <button class="button">Submit</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/me1.jpg" alt="" />
+        </div>
+      </section>
+    </header>
+    <!-- main -->
+    <main class="container">
+      <!-- about me -->
+      <section id="about-me" class="about">
+        <div class="about-image">
+          <img src="images/myself.jpg" alt="" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h3>Web <span>Developer</span></h3>
+          <p>
+            Greetings, I am Jannatul Ferdous, a dedicated student with a profound passion for web
+            development, specializing in HTML, CSS, and JavaScript. This portfolio serves as a
+            curated exhibition of my work, experiences, and creative undertakings, offering you a
+            comprehensive insight into my academic journey and professional growth. As an aspiring
+            web developer, I have honed my skills in crafting immersive online experiences through
+            the mastery of essential web technologies. Thank you for joining me on this journey, and
+            I look forward to sharing my passion and expertise with you.
+          </p>
+          <a href="documents/Resume.pdf" target="_blank" class="button">Download My CV</a>
+        </div>
+      </section>
+      <!-- my education -->
+      <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-grid">
+          <div class="education-card">
+            <i class="fa-solid fa-book-open fa-2xl" style="color: #ff1c51"></i>
+            <h3>Secondary School Certificate</h3>
+            <p>Sacred Heart School [2016-2017]</p>
+
+            <!-- <span class="material-icons-outlined"> school </span> -->
+          </div>
+          <div class="education-card">
+            <i class="fa-solid fa-school fa-2xl" style="color: #ff1c51"></i>
+            <h3>Higher Secondary School Certificate</h3>
+            <p>B.A.F Shaheen College [2018-2019]</p>
+            <!-- <span class="material-icons-outlined"> school </span> -->
+          </div>
+          <div class="education-card">
+            <i class="fa-solid fa-graduation-cap fa-2xl" style="color: #ff1c51"></i>
+            <h3>B.Sc. Engineering in CSE</h3>
+            <p>Daffodil International University [2020-Present]</p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="contact-me">
+        <h2>Jannatul Ferdos</h2>
+        <p>For more information or to find me contact me on</p>
+        <div class="contact-container">
+          <!-- Facebook -->
+          <a
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=100017089051031&mibextid=ZbWKwL"
+            class="contact-card"
+          >
+            <i class="fa-brands fa-facebook-f fa-xl"></i>
+          </a>
+          <!-- LinkedIn -->
+          <a
+            target="_blank"
+            href="http://www.linkedin.com/in/jannatul-ferdous-5a25a020b"
+            class="contact-card"
+          >
+            <i class="fa-brands fa-linkedin-in fa-xl"></i>
+          </a>
+          <!-- Github -->
+          <a target="_blank" href="https://github.com/Jannatul-902" class="contact-card">
+            <i class="fa-brands fa-github fa-xl"></i>
+          </a>
+          <!-- Email -->
+          <a href="mailto:ferdous15-3902@diu.edu.bd" class="contact-card">
+            <i class="fa-solid fa-envelope fa-xl"></i>
+          </a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
